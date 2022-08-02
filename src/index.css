@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Al-Jazeera-Arabic';
+  src: url(../public/fonts/Aljazeera.ttf);
+  font-weight: 600;
+  font-style: 'normal';
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Al-Jazeera-Arabic';
+  color: #fff;
+}
+
+body {
+  direction: rtl;
+}
+
+.container {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
